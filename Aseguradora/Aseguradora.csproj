@@ -119,6 +119,7 @@
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -211,6 +212,12 @@
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx.designer.cs">
       <DependentUpon>frmClienteModifica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx.cs">
+      <DependentUpon>frmPruebaSteven.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx.designer.cs">
+      <DependentUpon>frmPruebaSteven.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
