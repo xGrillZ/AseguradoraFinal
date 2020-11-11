@@ -115,6 +115,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmCcv2.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx" />
@@ -188,6 +189,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmCcv2.aspx.cs">
+      <DependentUpon>frmCcv2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmCcv2.aspx.designer.cs">
+      <DependentUpon>frmCcv2.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx.cs">
       <DependentUpon>frmClienteElimina.aspx</DependentUpon>
