@@ -115,6 +115,10 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -183,6 +187,30 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx.cs">
+      <DependentUpon>frmClienteElimina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx.designer.cs">
+      <DependentUpon>frmClienteElimina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx.cs">
+      <DependentUpon>frmClienteInsert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx.designer.cs">
+      <DependentUpon>frmClienteInsert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx.cs">
+      <DependentUpon>frmClienteLista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx.designer.cs">
+      <DependentUpon>frmClienteLista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx.cs">
+      <DependentUpon>frmClienteModifica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx.designer.cs">
+      <DependentUpon>frmClienteModifica.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
