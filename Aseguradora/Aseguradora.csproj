@@ -179,6 +179,15 @@
     <Compile Include="BL\BLCliente.cs" />
     <Compile Include="BL\BLPaisProcedencia.cs" />
     <Compile Include="BL\BLTipoCliente.cs" />
+    <Compile Include="clases\Articulo.cs" />
+    <Compile Include="clases\Bicicleta.cs" />
+    <Compile Include="clases\Circulo.cs" />
+    <Compile Include="clases\Cuadrado.cs" />
+    <Compile Include="clases\Empleado.cs" />
+    <Compile Include="clases\Figura.cs" />
+    <Compile Include="clases\Motocicleta.cs" />
+    <Compile Include="clases\Persona.cs" />
+    <Compile Include="clases\Vehiculo.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
