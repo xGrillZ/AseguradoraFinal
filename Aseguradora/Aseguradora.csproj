@@ -120,6 +120,7 @@
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmRandall.aspx" />
     <Content Include="Global.asax" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx.designer.cs">
       <DependentUpon>frmClienteModifica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx.cs">
+      <DependentUpon>frmJoseTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx.designer.cs">
+      <DependentUpon>frmJoseTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx.cs">
       <DependentUpon>frmPruebaSteven.aspx</DependentUpon>
