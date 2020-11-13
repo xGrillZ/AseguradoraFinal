@@ -8,6 +8,7 @@
     <title></title>
     <%-- Definicion de hojas de estilo para todas las páginas --%>
     <link href="../css/navbar.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
     <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
