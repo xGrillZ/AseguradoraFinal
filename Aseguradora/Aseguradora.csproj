@@ -112,6 +112,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\footer.css" />
+    <Content Include="css\navbar.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -123,7 +125,11 @@
     <Content Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmRandall.aspx" />
+<<<<<<< HEAD
     <Content Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx" />
+=======
+    <Content Include="FormulariosMantenimientoAsegurados\testMaster.aspx" />
+>>>>>>> 29348ce538bf2e9fac78b713c3ac8c7001b6a398
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -133,8 +139,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="img\company1.png" />
+    <Content Include="MasterPage\Aseguradora.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="pruebaccv\test.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -214,24 +221,28 @@
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx.cs">
       <DependentUpon>frmClienteElimina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteElimina.aspx.designer.cs">
       <DependentUpon>frmClienteElimina.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx.cs">
       <DependentUpon>frmClienteInsert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteInsert.aspx.designer.cs">
       <DependentUpon>frmClienteInsert.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx.cs">
       <DependentUpon>frmClienteLista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx.designer.cs">
       <DependentUpon>frmClienteLista.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx.cs">
       <DependentUpon>frmClienteModifica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx.designer.cs">
       <DependentUpon>frmClienteModifica.aspx</DependentUpon>
@@ -245,6 +256,7 @@
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx.cs">
       <DependentUpon>frmPruebaSteven.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx.designer.cs">
       <DependentUpon>frmPruebaSteven.aspx</DependentUpon>
@@ -256,24 +268,33 @@
     <Compile Include="FormulariosMantenimientoAsegurados\frmRandall.aspx.designer.cs">
       <DependentUpon>frmRandall.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.cs">
       <DependentUpon>PruebaJose.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.designer.cs">
       <DependentUpon>PruebaJose.aspx</DependentUpon>
+=======
+    <Compile Include="FormulariosMantenimientoAsegurados\testMaster.aspx.cs">
+      <DependentUpon>testMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\testMaster.aspx.designer.cs">
+      <DependentUpon>testMaster.aspx</DependentUpon>
+>>>>>>> 29348ce538bf2e9fac78b713c3ac8c7001b6a398
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="pruebaccv\test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
+    <Compile Include="MasterPage\Aseguradora.Master.cs">
+      <DependentUpon>Aseguradora.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pruebaccv\test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
+    <Compile Include="MasterPage\Aseguradora.Master.designer.cs">
+      <DependentUpon>Aseguradora.Master</DependentUpon>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,12 +304,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
