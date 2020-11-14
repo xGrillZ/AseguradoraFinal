@@ -123,6 +123,7 @@
     <Content Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmRandall.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -254,6 +255,13 @@
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmRandall.aspx.designer.cs">
       <DependentUpon>frmRandall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.cs">
+      <DependentUpon>PruebaJose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.designer.cs">
+      <DependentUpon>PruebaJose.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
