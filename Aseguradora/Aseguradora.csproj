@@ -125,11 +125,8 @@
     <Content Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmRandall.aspx" />
-<<<<<<< HEAD
     <Content Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx" />
-=======
     <Content Include="FormulariosMantenimientoAsegurados\testMaster.aspx" />
->>>>>>> 29348ce538bf2e9fac78b713c3ac8c7001b6a398
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
