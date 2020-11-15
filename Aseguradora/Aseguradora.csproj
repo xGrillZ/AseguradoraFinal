@@ -123,10 +123,10 @@
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteLista.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmClienteModifica.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx" />
+    <Content Include="FormulariosMantenimientoAsegurados\frmPruebaMasterPage.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\frmRandall.aspx" />
     <Content Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx" />
-    <Content Include="FormulariosMantenimientoAsegurados\testMaster.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -251,6 +251,13 @@
     <Compile Include="FormulariosMantenimientoAsegurados\frmJoseTest.aspx.designer.cs">
       <DependentUpon>frmJoseTest.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaMasterPage.aspx.cs">
+      <DependentUpon>frmPruebaMasterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaMasterPage.aspx.designer.cs">
+      <DependentUpon>frmPruebaMasterPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\frmPruebaSteven.aspx.cs">
       <DependentUpon>frmPruebaSteven.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -271,13 +278,6 @@
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.designer.cs">
       <DependentUpon>PruebaJose.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FormulariosMantenimientoAsegurados\testMaster.aspx.cs">
-      <DependentUpon>testMaster.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FormulariosMantenimientoAsegurados\testMaster.aspx.designer.cs">
-      <DependentUpon>testMaster.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

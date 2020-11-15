@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Aseguradora.FormulariosMantenimientoAsegurados
 {
-    public partial class testMaster : System.Web.UI.Page
+    public partial class frmPruebaMasterPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
