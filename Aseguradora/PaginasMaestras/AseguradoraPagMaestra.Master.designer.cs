@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Aseguradora.MasterPage
+namespace Aseguradora.PaginasMaestras
 {
 
 
-    public partial class Aseguradora
+    public partial class AseguradoraPagMaestra
     {
 
         /// <summary>

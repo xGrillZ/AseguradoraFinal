@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Aseguradora.master.cs" Inherits="Aseguradora.MasterPage.Aseguradora" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AseguradoraPagMaestra.master.cs" Inherits="Aseguradora.PaginasMaestras.AseguradoraPagMaestra" %>
 
 <!DOCTYPE html>
 

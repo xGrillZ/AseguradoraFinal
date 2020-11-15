@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Aseguradora.MasterPage
+namespace Aseguradora.FormulariosMantenimientoAsegurados
 {
-    public partial class Aseguradora : System.Web.UI.MasterPage
+    public partial class frmPruebaMasterPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
