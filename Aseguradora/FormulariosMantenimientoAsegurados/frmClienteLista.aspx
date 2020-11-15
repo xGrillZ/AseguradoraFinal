@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/AseguradoraMaestra.Master" AutoEventWireup="true" CodeBehind="frmClienteLista.aspx.cs" Inherits="WFApplication.formulariosBaseDatos.frmClienteLista" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/Aseguradora.Master" AutoEventWireup="true" CodeBehind="frmClienteLista.aspx.cs" Inherits="WFApplication.formulariosBaseDatos.frmClienteLista" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContenidoPrincipal" runat="server">
