@@ -19,7 +19,7 @@
        <div class="form-group">
             <asp:Label ID="Label5" runat="server" Text="Nombre"></asp:Label>
              <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control"></asp:TextBox>
-             <asp:RequiredFieldValidator ID="rqvTxtNombre" runat="server" ControlToValidate="txtNombre" CssClass="form-control" ErrorMessage="Debe ingresar el nombre" ForeColor="Red" Display="None"></asp:RequiredFieldValidator>
+             <asp:RequiredFieldValidator ID="rqvTxtNombre" runat="server" ControlToValidate="txtNombre" CssClass="form-control" ErrorMessage="Debe ingresar nombre" ForeColor="Red" Display="None"></asp:RequiredFieldValidator>
        </div>
        <div class="form-group">
           <asp:Label ID="Label6" runat="server" Text="Teléfono 1"></asp:Label>
