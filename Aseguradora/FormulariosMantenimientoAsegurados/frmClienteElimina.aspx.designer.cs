@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WFApplication.formulariosBaseDatos
+namespace Aseguradora.formulariosBaseDatos
 {
 
 

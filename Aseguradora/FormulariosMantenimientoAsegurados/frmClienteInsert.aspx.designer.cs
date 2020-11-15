@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WFApplication.formularios
+namespace Aseguradora.formularios
 {
 
 
