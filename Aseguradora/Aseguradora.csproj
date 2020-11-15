@@ -265,21 +265,19 @@
     <Compile Include="FormulariosMantenimientoAsegurados\frmRandall.aspx.designer.cs">
       <DependentUpon>frmRandall.aspx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.cs">
       <DependentUpon>PruebaJose.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\PruebaJose.aspx.designer.cs">
       <DependentUpon>PruebaJose.aspx</DependentUpon>
-=======
+    </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\testMaster.aspx.cs">
       <DependentUpon>testMaster.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FormulariosMantenimientoAsegurados\testMaster.aspx.designer.cs">
       <DependentUpon>testMaster.aspx</DependentUpon>
->>>>>>> 29348ce538bf2e9fac78b713c3ac8c7001b6a398
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
